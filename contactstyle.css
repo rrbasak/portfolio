@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee8e1;
+}
+.slidebar{
+    background-color: rgb(188, 159, 216);
+    background-color:  rgb(184, 175, 175);
+
+    height: 120vh;
+    margin-left: -146px;
+}
+.slidebar nav{
+    padding: 45px;
+}
+.slidebar nav li{
+    list-style: none;
+    font-size: 23px;
+    padding: 33px 0;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+.slidebar nav li a{
+    text-decoration: none;
+    color: rgb(47, 46, 46);
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 120vh;
+}
+.container{
+    display: flex;
+
+}
+
+.infocontainer{
+    background-color: darkgreen;
+    height: 58vh;
+    width: 80vw;
+    margin: 72px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 55px;
+    font-family: 'Source Code Pro', monospace;
+}
+.about{
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+}
+.aboutmore{
+    font-size: 22px;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 23px;
+}
+.buttons{
+    margin-top: 33px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 5px;
+    color: wheat;
+    background-color: rgb(143, 153, 173);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 3px;
+    cursor: pointer;
+    font-family: 'Source Code Pro', monospace;
+}
+.buttons button:hover{
+    transition: all 1s ease-in-out;
+    transform: scale(0.8);
+}
+.devpic img{
+    
+    height: 58vh;
+}
+.form-text{
+    font-weight: bold;
+}
+.contactform{
+    
+    padding: 0 50px;
+    padding-top: 11px;
+}

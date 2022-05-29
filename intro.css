@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: wheat;
+}
+#arrow{
+    font-size: 45px;
+    position: fixed;
+    cursor: pointer;
+}
+
+#arrowbar{
+    margin: 0 40px;
+    position: fixed;
+
+}
+.activearrow{
+    transition: all 0.5s ease-in;
+    opacity: 1;
+}
+li{
+    list-style: none;
+    margin: 50px;
+    width: 45px;
+    height: 45px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 2px 1px 4px 2px rgb(192 187 187);
+    cursor: pointer;
+
+
+
+}
+
+li:hover{
+    transition: all 1s ease-in-out;
+    transform: translateY(-10%);
+}
